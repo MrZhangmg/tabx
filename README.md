@@ -34,7 +34,7 @@ pip install requirements.txt
 
 ### 3.2 Fine-tuning
 
-1. Download table-images from [here](https://github.com/haotian-liu/LLaVA?tab=readme-ov-file#visual-instruction-tuning) . Put the images in the **table_instructV** folder and unzip them . 
+1. Download table-images from [here](https://huggingface.co/datasets/zhangjingyu111/MMTab-pro) . Put the images in the **table_instructV** folder and unzip them . 
 2. Download ```MMTab-pro``` from  [Hugging Face Dataset](https://huggingface.co/datasets/zhangjingyu111/MMTab-pro). . Put it under ```./data/merge```. 
 3. Download Janus-pro from the official repo and put it under ```./```.
 4. According to your path, change the path of the codes in the folder:```./self-feedback```
