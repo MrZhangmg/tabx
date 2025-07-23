@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-<img src="./readme_images/teaser.pdf" width = "800" height = "380" align=center />
+<img src="./readme_images/teaser.png" width = "800" height = "380" align=center />
 
 Tables serve as a crucial medium for representing structured information and are widely used in domains such as finance, e-governance, and scientific research. However, table understanding remains a challenging task due to complex layouts, hierarchical structures, and the diversity of task formats. While recent multimodal large language models (MLLMs), such as Table-LLaVA, have shown promise in handling table images, they often suffer from limited generalization to complex or unseen tasks and rely on low-quality instruction data.
 
