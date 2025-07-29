@@ -14,14 +14,14 @@ Experimental results on the MMTab-eval benchmark demonstrate that TabX consisten
 
 ## 2. Dataset
 To facilitate more effective table understanding and address ambiguities in the existing dataset,  we construct a new dataset through a two-stage process: (1) integrating additional tasks and (2) reflective enhancement. We first create instruction-table-answer triplets for three new tasks.
-Then, we merge them into MMTab-finetune and apply a reflective enhancement strategy to improve the quality of instruction-answer pairs across all triplets. The resulting dataset can be downloaded from the [Hugging Face Dataset](https://huggingface.co/datasets/zhangjingyu111/MMTab-pro). 
+Then, we merge them into MMTab-finetune and apply a reflective enhancement strategy to improve the quality of instruction-answer pairs across all triplets. The resulting dataset can be downloaded from the huggingface(All the datasets and the model checkpoint can be downloaded after the acception). 
 
 ## 3. How to use
 
 ### 3.1 Environment Setting
 1. Clone this repository and navigate to tabx folder
 ```bash
-https://github.com/MrZhangmg/tabx.git
+https://github.com/xxx/tabx.git
 cd tabx
 ```
 
@@ -34,15 +34,15 @@ pip install requirements.txt
 
 ### 3.2 Fine-tuning
 
-1. Download table-images from [here](https://huggingface.co/datasets/zhangjingyu111/MMTab-pro) . Put the images in the **table_instructV** folder and unzip them . 
-2. Download ```MMTab-pro``` from  [Hugging Face Dataset](https://huggingface.co/datasets/zhangjingyu111/MMTab-pro). . Put it under ```./data/merge```. 
+1. Download table-images from the huggingface . Put the images in the **table_instructV** folder and unzip them . 
+2. Download ```MMTab-pro``` from  huggingface. . Put it under ```./data/merge```. 
 3. Download Janus-pro from the official repo and put it under ```./```.
 4. According to your path, change the path of the codes in the folder:```./self-feedback```
 5. Just run the ```./self-feedback/Mutiturn_trainer.py```.
 
 ### 3.2 Inference
 
-1.Download the TabX-7B from [here](https://huggingface.co/zhangjingyu111/tabx) .Then change the model path in the file **test.py**, run the next command to use the model:
+1.Download the TabX-7B from the higgingface .Then change the model path in the file **test.py**, run the next command to use the model:
 
 `python test.py --image "" --question ""`
 
